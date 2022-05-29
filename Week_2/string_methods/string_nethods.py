@@ -19,4 +19,8 @@ print(swapcase_sentence)
 #Return a copy of the string with the leading and trailing characters removed. In this case we strip white spaces
 strip_sentence = demo_sentence.strip(" ")
 print(strip_sentence)
-#
+#split
+split_sentence = demo_sentence.split()
+print(split_sentence)
+new_str = "The cow jumped over the moon."
+new_str.split()
